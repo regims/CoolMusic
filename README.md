@@ -1,2 +1,2 @@
 # CoolMusic
-online music site
+Repositório do siste de streaming de música Coolmusic
