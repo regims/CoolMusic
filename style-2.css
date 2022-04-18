@@ -1,0 +1,311 @@
+
+
+  /*================================================ Painel de login ==========================================*/
+.
+.painel-login{
+  transform: skew(-20deg);
+
+}
+.painel-login{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: rgba(1, 0, 0, 0.6);
+    border-radius: none;
+    margin: auto;
+    top: 160px;  
+    padding: 50px;
+    
+  }
+ 
+
+.painel-login h1{
+    color: white;
+    text-decoration: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.img-logo-painel{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  bottom: -80px;
+  margin-left: 50px;    
+}
+.painel-login input:hover{
+  color: #9bf0e1;
+    
+}
+
+.caixa-lembrar{
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: white;
+}
+.caixa-lembrar p{
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: -20px;
+
+}
+.painel-login-item .form-control{
+  height: 30px;
+  width: 400px;
+}
+.painel-login-item .btn-default{
+  margin-top: 10px;
+  background-color: #181d18; /* Green */
+  border: none;
+  color: white;
+  width: 100%;  
+  text-align: center;
+  display: inline;
+
+}
+.painel-login-item .btn-default:hover{
+  background-color: #f51a13;
+
+}
+
+  /* ========================================== código CSS index ====================================== */
+
+html, body, .capa{
+height: 100%;
+}
+body{
+
+background: url('imagens/background2_icon.png'),
+            url('imagens/ruido.png'),
+            linear-gradient( 50deg, #000000, #230180);
+ background-attachment: fixed;
+ font-family: Arial, Helvetica, sans-serif;
+ overflow-x: hidden;   
+}
+/* -- Barra de navegação -- */
+.img-logo {
+  height: 110px;
+  width: 212px;
+  display: block;
+  background: url('imagens/coolmusic.svg') no-repeat;
+  background-size: contain;
+  color: transparent;
+}
+.img-rodape {
+  height: 90px;
+  width: 195px;
+  display: block;
+  background: url('imagens/coolmusic.svg') no-repeat;
+  background-size: contain;
+  color: transparent;
+}
+nav.navbar-transparente {
+	padding: 18px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a  {
+  font-weight: bold;
+	color: white;
+  font-size: 15px ;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover  {
+	color: #f70303;
+  background: none;
+  }
+/* -- Imagem de capa -- */
+.capa{
+  display: table;
+  width: 100%;
+}
+
+.texto-capa{
+  text-align: center;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  }
+
+    /* rodape */
+footer{
+      background: #000;
+      padding: 50px 0px 20px 0px;
+      position: relative;
+      bottom: -200px;
+}
+
+.item-rede-social{
+  float: right;
+}
+
+ 
+
+/* === botões ===*/
+.btn-custom{
+color: white;
+border-radius: 500px;
+-webkit-border-radius: 500px;
+-moz-border-radius: 500px; 
+text-transform: uppercase;  
+padding: 10px 35px;
+margin: 0px 15px;
+transition: background 0.4s, color 0.4s;
+}
+.btn-roxo{
+background: #7c25f8;
+}
+.btn-roxo:hover{
+background-color: #6207e3;
+color: white;
+}
+.btn-branco{
+border: 2px solid white;
+}
+.btn-branco:hover{
+background-color: white;
+color: black;
+}
+/* -- seção de serviços --*/
+#servicos{
+background: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+/*--secao recursos--*/
+#recursos{
+padding-top: 20px;
+padding-bottom: 20px;
+color: white;
+}
+/*===tipografia===*/
+h1{
+  font-size: 80px;
+}
+h2{
+ font-size: 100px;
+ font-weight: 1000;
+ letter-spacing: -0.05em;
+ margin-bottom: 50px;
+}
+h3{
+  font-size: 35px;
+  font-weight: 700;
+  initial-letter: -0.04em;  
+}
+#rodape h4 {
+  color: #919496;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#servicos h2, #servicos h{
+color: #ffffff;
+}
+#servicos h2, #servicos, p h{
+color: #ffffff;
+}
+#recursos h3{
+color: #93f0e1;
+}
+#imagem-promo, img{
+  margin-top: 20px;
+}
+
+/* player de música */
+
+.player{
+  background-color: #d7dcdf;
+  width: 400px;
+  height: 700px;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.display-player{
+position: absolute;
+background-color: #000;
+width: 300px;
+height: 300px;
+border-radius: 5px;
+margin-top: 30px;
+margin-left: 50px;
+}
+.botao-player{
+  position: relative;
+  background-color: #919496;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 350px;
+  border-radius: 100px;
+  
+}
+.botoes-seletores{  
+  position: relative;
+   height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 350px;
+  border-radius: 100px;
+}
+
+/*---------------- BOTAO ESQUERDO ----------------*/
+.botao-seletor-esquerdo{
+position: absolute;
+margin-top: 80px;
+}
+
+.botao-seletor-esquerdo svg{
+  color: #c5c5c5;
+}
+.botao-seletor-esquerdo svg:hover{
+  color: #1197e6;  
+}
+
+/*---------------- BOTAO DIREITO ----------------*/
+.botao-seletor-direto{
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+.botao-seletor-direto svg{
+  color: #c5c5c5;
+}
+.botao-seletor-direto svg:hover{
+  color: #1197e6;
+}
+/*---------------- BOTAO PLAY ----------------*/
+
+.botao-seletor-play{
+  position: absolute;
+  margin-left: 63px;
+  margin-top: 64px;
+}
+.botao-seletor-play svg{
+  color: #c5c5c5;
+}
+
+.botao-seletor-play svg:hover{
+  color: #1197e6;
+}
+#font-display{
+color: green;
+font-size: 30px;
+margin-left: 75px;
+margin-top: 75px;
+position: absolute;
+}

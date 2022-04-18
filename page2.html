@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Música para todos - Spotify</title>
+    <link rel="icon" href="imagens/favcon_2.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style-2.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->>
+</head>
+<body>
+  
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+      <div class="container">
+        
+        <!-- header -->
+        <div class="navbar-header">
+          
+          <!-- botao toggle -->
+          <button type="button" class="navbar-toggle collapsed"
+                  data-toggle="collapse" data-target="#barra-navegacao">
+            <span class="sr-only">alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <span class="img-logo">Spotify</span>
+          </a>
+
+        </div>
+
+        <!-- navbar -->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Premium</a></li>
+            <li><a href="">Ajuda</a></li>
+            <li><a href="">Baixar</a></li>
+            <li class="divisor" role="separator"></li>
+            <li><a href="">Inscrever-se</a></li>
+            <li><a href="">Entrar</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    <!-- /nav -->
+      <!-- Painel de login -->
+      <div class="container">
+        <div class="row">
+          <div class="painel-login">
+            <div class="painel-login-item">
+            <h1>Acesse</h1>
+              <form>
+                <div>
+                  <input name="usuario" type="text" class="form-control" placeholder="usuário">
+                </div>
+                  <br>
+                <div>
+                    <input name="senha" type="password" class="form-control" placeholder="senha"> 
+                </div>
+
+                  <span>
+                   <div class="form-check-input" type="checkbox">   
+
+                   </div>
+                  </span>
+                                         
+                <div>
+                    <input type="submit" value="enviar" onclick="login()" class="btn-default"></input>
+                </div>            
+              </form> 
+
+              <div>
+                <img class="img-logo-painel" src="imagens/coolmusic.svg">            
+              </div>           
+            </div> 
+          </div>                        
+        </div>    
+      </div>   
+    </div><!-- /container -->
+    <!-- rodapé -->
+<footer id="rodape">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-2">
+       <span class="img-rodape"></span>
+      </div> 
+
+      <span >
+        <div class="col-md-2">
+          <h4>Company</h4>
+          <ul class="nav">
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Emprego</a></li>
+            <li><a href="">Imprensa</a></li>
+            <li><a href="">Novidade</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h4>Comunidades</h4>
+          <ul class="nav">
+            <li><a href="">Artista</a></li>
+            <li><a href="">Desenvolvedores</a></li>
+            <li><a href="">Marcas</a></li>            
+          </ul>
+        </div>
+        
+        <div class="col-md-2">
+          <h4>Links Úteis</h4>
+          <ul class="nav">
+            <li><a href="">Ajuda</a></li>
+            <li><a href="">Presentes</a></li>
+            <li><a href="">Player da Web</a></li>            
+          </ul>
+        </div>  
+
+        <div class="col-md-4">
+          <ul class="nav">
+            <li class="item-rede-social"><img src="imagens/facebook.png"></a></li>
+            <br>
+            <li class="item-rede-social"><img src="imagens/instagram.png"></a></li>
+            <br>
+            <li class="item-rede-social"><img src="imagens/twitter.png"></a></li>            
+          </ul>
+        </div>
+
+      </span>
+      
+     </div>   
+   </div>
+
+ </footer>
+
+    
+    <script src="script.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+</body>
+</html>
